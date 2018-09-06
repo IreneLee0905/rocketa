@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://unpkg.com/ionicons@4.4.2/dist/ionicons.js"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!--popper-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+    <!--bootstrap-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/pricing.css">
+
+    <title>Final Assessment</title>
+    <style>
+        div {
+            opacity: 0;
+        }
+    </style>
+    <script>
+      $(function () {
+        $("div").animate({
+          opacity:1,
+        },'slow');
+
+        $('.card').hover(function () {
+          $(this).css("background","#FBFFCA");
+          $(this).animate({boxShadow: '0 0 30px #44f'});
+
+        });
+        $('.card').mouseleave(function(){
+          $(this).css("background","#FFFFFF");
+        })
+      })
+    </script>
+</head>
+<body>
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="../index.html">
+            <img src="../images/rocket-icon-vector.png" width="50" height="50" alt="">
+        </a>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="aboutus.html">AboutUs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="qa.html">Q&A</a>
+            </li>
+        </ul>
+        <a class="btn btn-outline-info" href="register.html">Register Now</a>
+    </nav>
+    <div class="col-sm-12 text-center topMargin"  >
+        <h2 style="color: #6b6b6b">Get the access to</h2>
+        <h1 style="font-weight: bold;color: #6e6e6e">all time saving features</h1>
+        <br/>
+        <h2>Choose your plan</h2>
+    </div>
+    <div class="col-sm-12 row" style="margin-top: 50px;margin-bottom: 100px">
+        <div class="col-sm-3">
+            <h3 style="margin-top:140px;color:#28a745;">
+                Rocket features
+            </h3>
+            <div class="function">Automatic categorization</div>
+            <div class="function">Backup and sync</div>
+            <div class="function">Detailed overview</div>
+            <div class="function">100% secure</div>
+            <div class="function">Import/Export of transactions</div>
+            <div class="function">Share with others</div>
+
+        </div>
+        <div class="col-sm-9">
+            <div class="row">
+                <div class="col-sm-3 card " style="text-align:center;">
+
+                    <h3 class="card-title"> Premium</h3>
+                    <p style="color:grey"> Start saving your time for what's
+                        truly important in your life.</p>
+                    <ul class="list-unstyled">
+                        <li style="font-size: 20px; ">$300/Month</li>
+                        <li>
+                            <ion-icon class="checkmark" name="checkmark-circle"></ion-icon>
+                        </li>
+                        <li>
+                            <ion-icon class="checkmark" name="checkmark-circle"></ion-icon>
+                        </li>
+                        <li>
+                            <ion-icon class="checkmark" name="checkmark-circle"></ion-icon>
+                        </li>
+                        <li>
+                            <ion-icon class="checkmark" name="checkmark-circle"></ion-icon>
+                        </li>
+                        <li>
+                            <ion-icon class="checkmark" name="checkmark-circle"></ion-icon>
+                        </li>
+                        <li>
+                            <ion-icon class="checkmark" name="checkmark-circle"></ion-icon>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 card " style="text-align:center;opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+
+                    <h3 class="card-title"> Plus</h3>
+                    <p style="color:grey">
+                        Start saving your time together with your friends and family.
+                    </p>
+                    <ul class="list-unstyled">
+                        <li style="font-size: 20px; ">$300/Month</li>
+
+                        <li>
+                            <ion-icon class="checkmark" name="checkmark-circle"></ion-icon>
+                        </li>
+                        <li>
+                            <ion-icon class="checkmark close-red" name="close-circle"></ion-icon>
+                        </li>
+                        <li>
+                            <ion-icon class="checkmark" name="checkmark-circle"></ion-icon>
+                        </li>
+                        <li>
+                            <ion-icon class="checkmark close-red" name="close-circle"></ion-icon>
+                        </li>
+                        <li>
+                            <ion-icon class="checkmark" name="checkmark-circle"></ion-icon>
+                        </li>
+                        <li>
+                            <ion-icon class="checkmark" name="checkmark-circle"></ion-icon>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 card " style="text-align:center;opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+
+                    <h3 class="card-title"> Basic</h3>
+                    <p style="color:grey"> Basic function that make your life easier</p><br/>
+                    <ul class="list-unstyled">
+                        <li style="font-size: 20px; ">$300/Month</li>
+                        <li>
+                            <ion-icon class="checkmark close-red" name="close-circle"></ion-icon>
+                        </li>
+                        <li>
+                            <ion-icon class="checkmark close-red" name="close-circle"></ion-icon>
+                        </li>
+                        <li>
+                            <ion-icon class="checkmark close-red" name="close-circle"></ion-icon>
+                        </li>
+                        <li>
+                            <ion-icon class="checkmark" name="checkmark-circle"></ion-icon>
+                        </li>
+                        <li>
+                            <ion-icon class="checkmark close-red" name="close-circle"></ion-icon>
+                        </li>
+                        <li>
+                            <ion-icon class="checkmark" name="checkmark-circle"></ion-icon>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<footer class="footer">
+    Copyright © 2018 IreneLee Technology Crop. All rights reserved
+</footer>
+</body>
+</html>

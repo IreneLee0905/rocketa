@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!--popper-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+    <!--bootstrap-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/qa.css">
+    <title>Final Assessment</title>
+
+    <style>
+        div {
+            opacity: 0;
+        }
+    </style>
+    <script>
+      $(function () {
+        $("div").animate({
+          opacity:1,
+        },'slow');
+      })
+
+    </script>
+</head>
+<body>
+
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="../index.html">
+            <img src="../images/rocket-icon-vector.png" width="50" height="50" alt="">
+        </a>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">AboutUs</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="qa.html">Q&A</a>
+            </li>
+        </ul>
+        <a class="btn btn-outline-info" href="register.html">Register Now</a>
+        <!--<span class="navbar-text">Navbar text with an inline element</span>-->
+    </nav>
+    <div class="text-center topMargin">
+        <h1 class="grey">If you want to get in touch with us,</h1>
+        <h2 class="contact">use these e-mails</h2>
+        <br/>
+        <div class="row text-left" style="margin-left: 150px">
+            <div class="col-sm-6">
+                <img src="../images/rocket2.jpg" width="400px" height="600px"/>
+            </div>
+            <div class="col-sm-6">
+                <div class="col-sm-12">
+                    <p class="email">For Support</p>
+                    <a href="mailto:s1465243@student.mp.edu.au">s1465243@student.mp.edu.au</a>
+                    <p class="email">For Media & PR Opportunities </p>
+                    <a href="mailto:s1465243@student.mp.edu.au">s1465243@student.mp.edu.au</a>
+                    <p class="email">For Marketing Purposes</p>
+                    <a href="mailto:s1465243@student.mp.edu.au">s1465243@student.mp.edu.au</a>
+                    <p class="email">For Business Opportunities</p>
+                    <a href="mailto:s1465243@student.mp.edu.au">s1465243@student.mp.edu.au</a>
+                    <p class="email"> For Other Opportunities</p>
+                    <a href="mailto:s1465243@student.mp.edu.au">s1465243@student.mp.edu.au</a>
+                </div>
+            </div>
+        </div>
+
+        <br/>
+        <div class="facebook">
+            <h2 class="contact">or just follow our <a style="color:dodgerblue;" href="https://www.facebook.com/">Facebook</a>
+                :)</h2>
+
+        </div>
+        <br/>
+        <h1>Get in touch with us</h1>
+        <div class="row justify-content-center">
+            <div class="col-sm-7">
+                <form style="margin-top:50px;margin-bottom: 100px">
+                    <div class="form-row">
+                        <div class="form-group col-sm-6">
+                            <label for="firstName">First name</label>
+                            <input type="text" class="form-control" placeholder="Irene" id="firstName">
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label for="lastName">Last name</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="Lee">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-sm-12">
+                            <label for="email">Email</label>
+                            <input type="email" placeholder="xxxx@gmail.com" class="form-control" id="email">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-sm-12">
+                            <label for="message">Message</label>
+                            <textarea rows="10" class="form-control" id="message" placeholder="messages"></textarea>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-info text-center">SEND</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        Copyright © 2018 IreneLee Technology Crop. All rights reserved
+    </footer>
+</div>
+</body>
+</html>
