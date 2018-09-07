@@ -3,17 +3,28 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IreneLee0905/rocketa.git"
   },
+
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/IreneLee0905/rocketa/issues"
   },
-  "homepage": "https://github.com/IreneLee0905/rocketa#readme"
+  "homepage": "https://github.com/IreneLee0905/rocketa#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "request": "^2.88.0",
+    "tape": "^4.9.1"
+  }
 }
